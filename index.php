@@ -106,6 +106,14 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
           </div>
 
         <?php
+          $servername = "etal-test-mysql.mysql.database.azure.com";
+          $username = "etal";
+          $password = "Templogin1";
+          $dbname = "test_schema";
+          
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $dbname);
+
           echo "hello";
           ?>
 

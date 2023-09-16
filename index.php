@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Sun Aug 27 2023 20:59:40 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="64ebb438a1410b0086bd7506" data-wf-site="64ebb438a1410b0086bd7500">
 <head>
@@ -106,32 +106,7 @@
           </div>
 
         <?php
-          $servername = "etal-test-mysql.mysql.database.azure.com";
-          $username = "etal";
-          $password = "Templogin1";
-          $dbname = "test_schema";
-          
-          // Create connection
-          $conn = new mysqli($servername, $username, $password, $dbname);
-          
-          // Check connection
-          if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-          }
-          
-          $sql = "SELECT name, title FROM team-members"; // Modified to select only Publication and Year
-          $result = $conn->query($sql);
-          
-          if ($result->num_rows > 0) {
-            // Output data of each row
-            while($row = $result->fetch_assoc()) {
-              echo "Member: " . $row["name"]. " - Title: " . $row["title"]. "<br>";
-            }
-          } else {
-            echo "0 results";
-          }
-          
-          $conn->close();
+          echo "hello";
           ?>
 
 

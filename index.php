@@ -104,6 +104,38 @@
           <div class="brix---color-neutral-804">
             <h1 class="brix---heading-h1-size-2">Projects</h1>
           </div>
+
+        <?php
+          $servername = "etal-test-mysql.mysql.database.azure.com";
+          $username = "etal";
+          $password = "Templogin1";
+          $dbname = "test_schema";
+          
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          
+          // Check connection
+          if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+          }
+          
+          $sql = "SELECT name, title FROM team-members"; // Modified to select only Publication and Year
+          $result = $conn->query($sql);
+          
+          if ($result->num_rows > 0) {
+            // Output data of each row
+            while($row = $result->fetch_assoc()) {
+              echo "Member: " . $row["name"]. " - Title: " . $row["title"]. "<br>";
+            }
+          } else {
+            echo "0 results";
+          }
+          
+          $conn->close();
+          ?>
+
+
+          
           <div class="brix---mg-bottom-40px">
             <div class="brix---mg-bottom-24px-2">
               <p class="brix---paragraph-default-2">Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque ut quis.</p>

@@ -118,7 +118,7 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
 
           echo "hello";
           ?>
-        </div
+        </div>
           
           <div class="brix---mg-bottom-40px">
             <div class="brix---mg-bottom-24px-2">

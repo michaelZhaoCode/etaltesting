@@ -104,8 +104,8 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
           <div class="brix---color-neutral-804">
             <h1 class="brix---heading-h1-size-2">Projects</h1>
           </div>
-
-        <?php
+        <div>
+          <?php
           $servername = "etal-test-mysql.mysql.database.azure.com";
           $username = "etal";
           $password = "Templogin1";
@@ -114,10 +114,11 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
           // Create connection
           $conn = new mysqli($servername, $username, $password, $dbname);
 
+          $conn->close();
+
           echo "hello";
           ?>
-
-
+        </div
           
           <div class="brix---mg-bottom-40px">
             <div class="brix---mg-bottom-24px-2">

@@ -95,8 +95,12 @@
     </div>
   </div>
   <div class="brix---section-2">
-
-  <?php
+          <div>
+            <?php
+              ini_set('display_errors', 1);
+              ini_set('display_startup_errors', 1);
+              error_reporting(E_ALL);
+  
               // Database connection parameters
               $servername = "etal-test-mysql.mysql.database.azure.com";
               $username = "etal";
@@ -137,7 +141,7 @@
               // Close the connection
               $conn->close();
               ?>
-
+            </div>
 
     <div class="brix---container-default w-container">
       <div data-w-id="1bc9462e-8ecc-5f07-b10c-797fceb5e2ae" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="brix---inner-container-640px---center">

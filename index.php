@@ -113,7 +113,7 @@
               // Check connection
               if ($conn->connect_error) {
                   die("Connection failed: " . $conn->connect_error);
-              }
+              } 
 
               // SQL query to get data from 'team-members' table
               $sql = "SELECT id, name, title, staff_type, bio_text, profile_pic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";

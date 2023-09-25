@@ -104,26 +104,49 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
           <div class="brix---color-neutral-804">
             <h1 class="brix---heading-h1-size-2">Projects</h1>
           </div>
-        <div>
+          <div>
           <?php
-          $servername = "etal-test-mysql.mysql.database.azure.com";
-          $username = "etal";
-          $password = "Templogin1";
-          $dbname = "test_schema";
-          
-          // Create connection
-          $conn = new mysqli($servername, $username, $password, $dbname);
+              // Database connection parameters
+              $servername = "etal-test-mysql.mysql.database.azure.com";
+              $username = "etal";
+              $password = "Templogin1";
+              $dbname = "test_schema";
 
-         // Check connection
-          if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-          }
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
 
-          $conn->close();
+              // Check connection
+              if ($conn->connect_error) {
+                  die("Connection failed: " . $conn->connect_error);
+              }
 
-          echo "hello";
-          ?>
-        </div>
+              // SQL query to get data from 'team-members' table
+              $sql = "SELECT id, name, title, staff_type, bio_text, profile_pic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";
+              $result = $conn->query($sql);
+
+              // Check if the query returned any rows
+              if ($result->num_rows > 0) {
+                  // Loop through each row and print data
+                  while($row = $result->fetch_assoc()) {
+                      echo "<b>ID:</b> " . $row["id"] .
+                          " - <b>Name:</b> " . $row["name"] .
+                          " - <b>Title:</b> " . $row["title"] .
+                          " - <b>Staff Type:</b> " . $row["staff_type"] .
+                          " - <b>Bio Text:</b> " . $row["bio_text"] .
+                          " - <b>Profile Pic URL:</b> " . $row["profile_pic_url"] .
+                          " - <b>Google Scholar URL:</b> " . $row["googlescholar_url"] .
+                          " - <b>LinkedIn URL:</b> " . $row["linkedin_url"] .
+                          " - <b>Twitter URL:</b> " . $row["twitter_url"] .
+                          " - <b>Personal URL:</b> " . $row["personal_url"] . "<br>";
+                  }
+              } else {
+                  echo "0 results";
+              }
+
+              // Close the connection
+              $conn->close();
+              ?>
+          </div>
           
           <div class="brix---mg-bottom-40px">
             <div class="brix---mg-bottom-24px-2">

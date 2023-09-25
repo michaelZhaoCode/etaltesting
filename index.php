@@ -1,9 +1,9 @@
-o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Sun Aug 27 2023 20:59:40 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="64ebb438a1410b0086bd7506" data-wf-site="64ebb438a1410b0086bd7500">
 <head>
   <meta charset="utf-8">
-  <title>Sho&#x27;s Test Site</title>
+  <title>Shos Test Site</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">

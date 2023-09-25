@@ -124,11 +124,11 @@
                   // Loop through each row and print data
                   while($row = $result->fetch_assoc()) {
                       echo "<b>ID:</b> " . $row["id"] .
-                          " - <b>Name:</b> " . $row["name"] .
+                          " - <b>Name:</b> " . $row["fullname"] .
                           " - <b>Title:</b> " . $row["title"] .
                           " - <b>Staff Type:</b> " . $row["staff_type"] .
                           " - <b>Bio Text:</b> " . $row["bio_text"] .
-                          " - <b>Profile Pic URL:</b> " . $row["profile_pic_url"] .
+                          " - <b>Profile Pic URL:</b> " . $row["profilepic_url"] .
                           " - <b>Google Scholar URL:</b> " . $row["googlescholar_url"] .
                           " - <b>LinkedIn URL:</b> " . $row["linkedin_url"] .
                           " - <b>Twitter URL:</b> " . $row["twitter_url"] .

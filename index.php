@@ -95,17 +95,8 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
     </div>
   </div>
   <div class="brix---section-2">
-    <div class="brix---container-default w-container">
-      <div data-w-id="1bc9462e-8ecc-5f07-b10c-797fceb5e2ae" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="brix---inner-container-640px---center">
-        <div class="brix---text-center-2">
-          <div>
-            <div class="brix---subtitle-2">Projects</div>
-          </div>
-          <div class="brix---color-neutral-804">
-            <h1 class="brix---heading-h1-size-2">Projects</h1>
-          </div>
-          <div>
-          <?php
+
+  <?php
               // Database connection parameters
               $servername = "etal-test-mysql.mysql.database.azure.com";
               $username = "etal";
@@ -146,6 +137,16 @@ o<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com 
               // Close the connection
               $conn->close();
               ?>
+
+
+    <div class="brix---container-default w-container">
+      <div data-w-id="1bc9462e-8ecc-5f07-b10c-797fceb5e2ae" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="brix---inner-container-640px---center">
+        <div class="brix---text-center-2">
+          <div>
+            <div class="brix---subtitle-2">Projects</div>
+          </div>
+          <div class="brix---color-neutral-804">
+            <h1 class="brix---heading-h1-size-2">Projects</h1>
           </div>
           
           <div class="brix---mg-bottom-40px">

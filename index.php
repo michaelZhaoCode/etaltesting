@@ -116,7 +116,7 @@
               } 
 
               // SQL query to get data from 'team-members' table
-              $sql = "SELECT id, fullname, title, staff_type, bio_text, profile_pic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";
+              $sql = "SELECT id, fullname, title, staff_type, bio_text, profilepic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";
               $result = $conn->query($sql);
 
               // Check if the query returned any rows

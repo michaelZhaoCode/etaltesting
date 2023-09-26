@@ -116,7 +116,7 @@
               } 
 
               // SQL query to get data from 'team-members' table
-              $sql = "SELECT id, fullname, title, staff_type, bio_text, profilepic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";
+              $sql = "SELECT id, fullname, lab_role, bio_text, profilepic_url, googlescholar_url, linkedin_url, twitter_url, personal_url FROM team_members";
               $result = $conn->query($sql);
 
               // Check if the query returned any rows
@@ -125,8 +125,7 @@
                   while($row = $result->fetch_assoc()) {
                       echo "<b>ID:</b> " . $row["id"] .
                           " - <b>Name:</b> " . $row["fullname"] .
-                          " - <b>Title:</b> " . $row["title"] .
-                          " - <b>Staff Type:</b> " . $row["staff_type"] .
+                          " - <b>Lab Role:</b> " . $row["lab_role"] .
                           " - <b>Bio Text:</b> " . $row["bio_text"] .
                           " - <b>Profile Pic URL:</b> " . $row["profilepic_url"] .
                           " - <b>Google Scholar URL:</b> " . $row["googlescholar_url"] .

@@ -49,7 +49,7 @@
   <div data-w-id="fbd04e69-56bf-2382-c3b1-9055ad0e94b9" data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
     <div class="container-default w-container">
       <div class="header-content-wrapper">
-        <a href="index.html" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="" class="header-logo">
+        <a href="index.php" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="" class="header-logo">
           <div class="text-block"> Emerging Technologies and the Arts Lab</div>
         </a>
         <div class="header-right-col">
@@ -60,13 +60,13 @@
           <nav role="navigation" class="header-menu-wrapper w-nav-menu">
             <ul role="list" class="header-nav-menu-list">
               <li class="header-nav-list-item">
-                <a href="projects.html" class="header-nav-link w-nav-link">Projects</a>
+                <a href="projects.php" class="header-nav-link w-nav-link">Projects</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="publications.html" aria-current="page" class="header-nav-link w-nav-link w--current">Publications</a>
+                <a href="publications.php" aria-current="page" class="header-nav-link w-nav-link w--current">Publications</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="about.html" class="header-nav-link w-nav-link">About Us</a>
+                <a href="about.php" class="header-nav-link w-nav-link">About Us</a>
               </li>
               <li class="header-nav-list-item">
                 <a href="#" class="header-nav-link w-nav-link">Contact</a>
@@ -115,21 +115,7 @@
             </a>
           </div>
           <div class="pubs_blog-posts">
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2024" class="category">2024</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <?php
+          <?php
               ini_set('display_errors', 1);
               ini_set('display_startup_errors', 1);
               error_reporting(E_ALL);
@@ -190,10 +176,11 @@
             // Close the connection
             $conn->close();
             ?>
-            
-
-
-
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="footer">
     <div class="w-layout-grid grid">
       <div id="w-node-de7d164e-4cba-062c-cd51-30103eebb0f1-1a75296c" class="footercontactdiv">

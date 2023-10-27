@@ -128,143 +128,72 @@
                 </div>
               </div>
             </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2023" class="category">2023</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">The SAGE Handbook of Human-Machine Communication</div>
-                  <div class="text-size-medium-3">Guzman, A. L., McEwen, R., &amp; Jones, S.</div>
-                  <div class="text-size-medium-3">SAGE Publications Ltd</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
+
+            <?php
+              ini_set('display_errors', 1);
+              ini_set('display_startup_errors', 1);
+              error_reporting(E_ALL);
+  
+              // Database connection parameters
+              $servername = "etal-test-mysql.mysql.database.azure.com";
+              $username = "etal";
+              $password = "Templogin1";
+              $dbname = "test_schema";
+
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
+
+              // Check connection
+              if ($conn->connect_error) {
+                  die("Connection failed: " . $conn->connect_error);
+              } 
+            
+            // Step 2: Execute a SQL query to fetch the required data
+            $sql = "SELECT * FROM publications ORDER BY year DESC";
+            $result = $conn->query($sql);
+            
+            // Step 3: Sort the data by year (actually, it's already sorted by the SQL query)
+            $publications_by_year = [];
+            
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    $publications_by_year[$row['year']][] = $row;
+                }
+            }
+            ?>
+            
+            <!-- HTML structure -->
+            <div class="main-content">
+              <!-- Step 4: Loop through the sorted data and populate the HTML structure -->
+              <?php foreach ($publications_by_year as $year => $publications): ?>
+                <div class="pubs_featured-list-wrapper">
+                  <div class="blog07_year-publication-list">
+                    <div id="yr-<?php echo $year; ?>" class="category"><?php echo $year; ?></div>
+                    
+                    <?php foreach ($publications as $publication): ?>
+                      <div class="blog07_publication w-clearfix">
+                        <div class="heading-small-copy"><?php echo $publication['title']; ?></div>
+                        <div class="text-size-medium-3"><?php echo $publication['authors']; ?></div>
+                        <div class="text-size-medium-3"><?php echo $publication['publication']; ?></div>
+                        <div class="link-size-medium">
+                          <a href="<?php echo $publication['citation_link']; ?>" class="link-text-medium-small">Link</a>
+                        </div>
+                      </div>
+                    <?php endforeach; ?>
+                    
                   </div>
                 </div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Facilitated model-based reasoning in immersive virtual reality: Meaning-making and embodied interactions with dynamic processes</div>
-                  <div class="text-size-medium-3">Lui, M., Chong, K.-Y. A., Mullally, M., &amp; McEwen, R.</div>
-                  <div class="text-size-medium-3">International Journal of Computer-Supported Collaborative Learning</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
+              <?php endforeach; ?>
             </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2022" class="category">2022</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2021" class="category">2021</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2020" class="category">2020</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2019" class="category">2019</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="pubs_featured-list-wrapper">
-              <div class="blog07_year-publication-list">
-                <div id="yr-2018" class="category">2018</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="blog07_year-publication-list">
-                <div id="yr-2017" class="category">2017</div>
-                <div class="blog07_publication w-clearfix">
-                  <div class="heading-small-copy">Paper Title</div>
-                  <div class="text-size-medium-3">Author Names</div>
-                  <div class="text-size-medium-3">Conference or Journal name</div>
-                  <div class="link-size-medium">
-                    <a href="#" class="link-text-medium-small">Citation Link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="blog07_year-publication-list">
-              <div id="yr-2016" class="category">2016 and earlier</div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            
+            <?php
+            // Close the connection
+            $conn->close();
+            ?>
+            
+
+
+
   <div class="footer">
     <div class="w-layout-grid grid">
       <div id="w-node-de7d164e-4cba-062c-cd51-30103eebb0f1-1a75296c" class="footercontactdiv">

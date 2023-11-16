@@ -111,32 +111,38 @@
                   die("Connection failed: " . $conn->connect_error);
               }
 
-              // Fetch data from database
-              $sql = "SELECT `project-title`, `project-bio`, `lab-members`, `image-link` FROM projects";
+              // SQL query to fetch all projects
+              $sql = "SELECT project_title, project_bio, lab_members, image_link, years FROM projects"; // replace 'your_table' with your actual table name
               $result = $conn->query($sql);
 
+              // Check if there are results
               if ($result->num_rows > 0) {
                   // Output data of each row
                   while($row = $result->fetch_assoc()) {
                       echo '<div class="w-layout-grid blogsection09_list">';
-                      echo '  <div class="blogsection09_item">';
-                      echo '    <a href="#" class="blogsection09_image-link w-inline-block">';
-                      echo '      <div class="blogsection09_image-wrapper"><img src="' . $row["image-link"] . '" alt="" class="blogsection09_image"></div>';
-                      echo '    </a>';
-                      echo '    <div class="blogsection09_item-content">';
-                      echo '      <a href="#" class="blogsection09_title-link w-inline-block">';
-                      echo '        <h3 class="heading-xxsmall-2">' . $row["project-title"] . '</h3>';
-                      echo '        <div class="text-size-medium-4 text-style-2lines"><strong class="project-authors">' . $row["lab-members"] . '<br></strong></div>';
-                      echo '        <div class="orangeline"></div>';
-                      echo '      </a>';
-                      echo '      <div class="text-size-medium-4 text-style-2lines">' . $row["project-bio"] . '</div>';
-                      echo '    </div>';
-                      echo '  </div>';
+                      echo '<div class="blogsection09_item">';
+                      echo '<a href="#" class="blogsection09_image-link w-inline-block">';
+                      echo '<div class="blogsection09_image-wrapper"><img src="' . $row["image_link"] . '" alt="" class="blogsection09_image"></div>';
+                      echo '</a>';
+                      echo '<div class="blogsection09_item-content">';
+                      echo '<a href="#" class="blogsection09_category-link w-inline-block">';
+                      echo '<div class="projectyearheader">' . $row["years"] . '</div>';
+                      echo '</a>';
+                      echo '<a href="#" class="blogsection09_title-link w-inline-block">';
+                      echo '<h3 class="heading-xxsmall-2">' . $row["project_title"] . '</h3>';
+                      echo '<div class="text-size-medium-4 text-style-2lines"><strong class="project-authors">' . $row["lab_members"] . '<br></strong></div>';
+                      echo '<div class="orangeline"></div>';
+                      echo '</a>';
+                      echo '<div class="text-size-medium-4 text-style-2lines">' . $row["project_bio"] . '</div>';
+                      echo '</div>';
+                      echo '</div>';
                       echo '</div>';
                   }
               } else {
                   echo "0 results";
               }
+
+              // Close connection
               $conn->close();
               ?>
 

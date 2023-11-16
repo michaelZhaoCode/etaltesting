@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Fri Oct 27 2023 17:04:43 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Nov 16 2023 22:06:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="64ebb438a1410b0086bd7506" data-wf-site="64ebb438a1410b0086bd7500">
 <head>
   <meta charset="utf-8">
@@ -16,8 +16,9 @@
     <div class="square-menu-inner">
       <div class="navlogosdiv">
         <a href="https://www.vicu.utoronto.ca/about-victoria/edia/" target="_blank" class="brand-logo w-nav-brand"><img src="images/hands.png" loading="lazy" sizes="(max-width: 479px) 11vw, 29.46875px" height="33" alt="edia icon" srcset="images/hands-p-500.png 500w, images/hands.png 585w" class="brandlogoimage2"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="" height="33" class="brandlogoimage"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="victoria college logo
+" height="33" class="brandlogoimage"></a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
       </div>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="https://vicu.utoronto.ca/donate/" class="donatelink">DONATE</a>
@@ -47,7 +48,7 @@
   <div data-w-id="bd17b737-be0b-ef4d-3746-2ac06729ca30" data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
     <div class="container-default w-container">
       <div class="header-content-wrapper">
-        <a href="index.php" aria-current="page" class="header-logo-link w-nav-brand w--current"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="" class="header-logo">
+        <a href="index.html" aria-current="page" class="header-logo-link w-nav-brand w--current"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="et al. lab logo" class="header-logo">
           <div class="text-block"> Emerging Technologies and the Arts Lab</div>
         </a>
         <div class="header-right-col">
@@ -58,16 +59,16 @@
           <nav role="navigation" class="header-menu-wrapper w-nav-menu">
             <ul role="list" class="header-nav-menu-list">
               <li class="header-nav-list-item">
-                <a href="projects.php" class="header-nav-link w-nav-link">Projects</a>
+                <a href="projects.html" class="header-nav-link w-nav-link">Projects</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="publications.php" class="header-nav-link w-nav-link">Publications</a>
+                <a href="publications.html" class="header-nav-link w-nav-link">Publications</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="about.php" class="header-nav-link w-nav-link">About Us</a>
+                <a href="about.html" class="header-nav-link w-nav-link">About Us</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="#" class="header-nav-link w-nav-link">Contact</a>
+                <a href="contact.html" class="header-nav-link w-nav-link">Contact</a>
               </li>
             </ul>
           </nav>
@@ -95,7 +96,7 @@
         <div class="padding-vertical-xhuge">
           <div class="heading-subheading">The <strong>Emerging Technology and Arts Lab</strong> (et al.) at the University of Toronto is an interdisciplinary hub exploring the intersection of technology, arts, and human cognition/behavior. Our projects examine the impact of multisensory perception in VR on conceptual learning; children&#x27;s social interactions with robots; training AI language models to better comprehend linguistic diversity; and prototyping VR experiences for public sculpture and spatial storytelling. Research at the et al. lab centers around themes of embodiment, cognition, human-computer interaction, education, aesthetics, and inclusive/equitable design. </div>
           <div class="heading1_spacing-block-2"></div>
-          <a href="projects.php" class="button w-button">View Projects</a>
+          <a href="projects.html" class="button w-button">View Projects</a>
           <div class="blogsection_heading-wrapper">
             <div class="blogsection_heading">
               <div class="max-width-large">
@@ -110,7 +111,7 @@
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329aa" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-1080.png 1080w, images/Screen-Shot-2023-09-28-at-9.02.47-AM.png 1482w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.02.47-AM.png" alt="" class="blogsection_image"></div>
+                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-1080.png 1080w, images/Screen-Shot-2023-09-28-at-9.02.47-AM.png 1482w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.02.47-AM.png" alt="CHI 2023 conference banner image" class="blogsection_image"></div>
                   </a>
                   <div class="blogsection_meta-wrapper">
                     <a href="#" class="blogsection_category-link w-inline-block">
@@ -134,7 +135,7 @@
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329c1" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/644f1d25dc016-p-500.webp 500w, images/644f1d25dc016-p-800.webp 800w, images/644f1d25dc016-p-1080.webp 1080w, images/644f1d25dc016.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/644f1d25dc016.webp" alt="" class="blogsection_image"></div>
+                    <div class="blogsection_image-wrapper"><img srcset="images/644f1d25dc016-p-500.webp 500w, images/644f1d25dc016-p-800.webp 800w, images/644f1d25dc016-p-1080.webp 1080w, images/644f1d25dc016.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/644f1d25dc016.webp" alt="Rhonda McEwen in her Victoria College Office" class="blogsection_image"></div>
                   </a>
                   <div class="blogsection_meta-wrapper">
                     <a href="#" class="blogsection_category-link w-inline-block">
@@ -147,7 +148,7 @@
                   </a>
                   <div class="text-size-medium">After a year at the helm of U of T’s storied Victoria University, Rhonda McEwen says her prime mandate is to ensure students feel like they belong.<br><br></div>
                   <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329d2" href="https://www.thestar.com/news/gta/how-to-make-a-toronto-institution-elite-but-not-elitist-that-s-a-key-goal/article_563fa74f-56de-561c-b502-a62e2d2f1874.php" target="_blank" class="button-link w-inline-block">
+                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329d2" href="https://www.thestar.com/news/gta/how-to-make-a-toronto-institution-elite-but-not-elitist-that-s-a-key-goal/article_563fa74f-56de-561c-b502-a62e2d2f1874.html" target="_blank" class="button-link w-inline-block">
                     <div>Read more</div>
                     <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -158,7 +159,7 @@
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329d8" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.04.48-AM.png 908w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.04.48-AM.png" alt="" class="blogsection_image"></div>
+                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.04.48-AM.png 908w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.04.48-AM.png" alt="Photo of Yaxi Zhao" class="blogsection_image"></div>
                   </a>
                   <div class="blogsection_meta-wrapper">
                     <a href="#" class="blogsection_category-link w-inline-block">
@@ -182,7 +183,7 @@
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329ef" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/6471ce41a6381-p-500.webp 500w, images/6471ce41a6381-p-800.webp 800w, images/6471ce41a6381-p-1080.webp 1080w, images/6471ce41a6381.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/6471ce41a6381.webp" alt="" class="blogsection_image"></div>
+                    <div class="blogsection_image-wrapper"><img srcset="images/6471ce41a6381-p-500.webp 500w, images/6471ce41a6381-p-800.webp 800w, images/6471ce41a6381-p-1080.webp 1080w, images/6471ce41a6381.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/6471ce41a6381.webp" alt="Photo of Rhonda McEwen" class="blogsection_image"></div>
                   </a>
                   <div class="blogsection_meta-wrapper">
                     <a href="#" class="blogsection_category-link w-inline-block">
@@ -195,7 +196,7 @@
                   </a>
                   <div class="text-size-medium">This is a moment to challenge our approaches to teaching and assessing writing in the liberal arts and sciences.<br></div>
                   <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e32a00" href="https://www.thestar.com/opinion/contributors/academic-papers-written-by-ai-get-a-solid-b-but-is-it-cheating/article_9c6de419-0e71-5eed-a2ca-27ac636c18f1.php" class="button-link w-inline-block">
+                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e32a00" href="https://www.thestar.com/opinion/contributors/academic-papers-written-by-ai-get-a-solid-b-but-is-it-cheating/article_9c6de419-0e71-5eed-a2ca-27ac636c18f1.html" class="button-link w-inline-block">
                     <div>Read more</div>
                     <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -205,12 +206,12 @@
               </div>
             </div>
             <div class="blogsection_arrow left w-slider-arrow-left">
-              <div class="button-icon w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div class="button-icon-copy w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg></div>
             </div>
             <div class="blogsection_arrow w-slider-arrow-right">
-              <div class="button-icon w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div class="button-icon-copy w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg></div>
             </div>
@@ -236,7 +237,7 @@ height: 0.625rem;
       </div>
       <div class="orangeline"></div>
       <div class="logos-wrapper">
-        <div class="logos-contain-2"><img src="images/uoft-logo-blue.svg" loading="lazy" alt="" class="logo-images-2"><img src="images/iccit_logo_navy2.png" loading="lazy" width="300" sizes="(max-width: 479px) 59vw, (max-width: 767px) 25vw, (max-width: 991px) 21vw, (max-width: 1439px) 22vw, 300px" alt="" srcset="images/iccit_logo_navy2-p-500.png 500w, images/iccit_logo_navy2-p-800.png 800w, images/iccit_logo_navy2-p-1080.png 1080w, images/iccit_logo_navy2-p-1600.png 1600w, images/iccit_logo_navy2.png 1920w" class="logo-images-2"><img src="images/logo.svg" loading="lazy" width="300" alt="" class="logo-images-2"></div>
+        <div class="logos-contain-2"><img src="images/uoft-logo-blue.svg" loading="lazy" alt="University of Toronto Faculty of Information Logo" class="logo-images-2"><img src="images/iccit_logo_navy2.png" loading="lazy" width="300" sizes="(max-width: 479px) 59vw, (max-width: 767px) 25vw, (max-width: 991px) 21vw, (max-width: 1439px) 22vw, 300px" alt="Institute of Communication Culture Information and Technology Logo" srcset="images/iccit_logo_navy2-p-500.png 500w, images/iccit_logo_navy2-p-800.png 800w, images/iccit_logo_navy2-p-1080.png 1080w, images/iccit_logo_navy2-p-1600.png 1600w, images/iccit_logo_navy2.png 1920w" class="logo-images-2"><img src="images/logo.svg" loading="lazy" width="300" alt="Victoria University Logo" class="logo-images-2"></div>
       </div>
     </div>
   </section>

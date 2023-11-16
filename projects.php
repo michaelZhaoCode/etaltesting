@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Fri Oct 27 2023 17:04:43 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Nov 16 2023 22:06:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65136538fd267fa435bbf1e4" data-wf-site="64ebb438a1410b0086bd7500">
 <head>
   <meta charset="utf-8">
@@ -18,8 +18,9 @@
     <div class="square-menu-inner">
       <div class="navlogosdiv">
         <a href="https://www.vicu.utoronto.ca/about-victoria/edia/" target="_blank" class="brand-logo w-nav-brand"><img src="images/hands.png" loading="lazy" sizes="(max-width: 479px) 11vw, 29.46875px" height="33" alt="edia icon" srcset="images/hands-p-500.png 500w, images/hands.png 585w" class="brandlogoimage2"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="" height="33" class="brandlogoimage"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="victoria college logo
+" height="33" class="brandlogoimage"></a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
       </div>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="https://vicu.utoronto.ca/donate/" class="donatelink">DONATE</a>
@@ -49,7 +50,7 @@
   <div data-w-id="c153db11-9976-f13a-2b86-3917907f273e" data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
     <div class="container-default w-container">
       <div class="header-content-wrapper">
-        <a href="index.php" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="" class="header-logo">
+        <a href="index.html" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="et al. lab logo" class="header-logo">
           <div class="text-block"> Emerging Technologies and the Arts Lab</div>
         </a>
         <div class="header-right-col">
@@ -60,16 +61,16 @@
           <nav role="navigation" class="header-menu-wrapper w-nav-menu">
             <ul role="list" class="header-nav-menu-list">
               <li class="header-nav-list-item">
-                <a href="projects.php" aria-current="page" class="header-nav-link w-nav-link w--current">Projects</a>
+                <a href="projects.html" aria-current="page" class="header-nav-link w-nav-link w--current">Projects</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="publications.php" class="header-nav-link w-nav-link">Publications</a>
+                <a href="publications.html" class="header-nav-link w-nav-link">Publications</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="about.php" class="header-nav-link w-nav-link">About Us</a>
+                <a href="about.html" class="header-nav-link w-nav-link">About Us</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="#" class="header-nav-link w-nav-link">Contact</a>
+                <a href="contact.html" class="header-nav-link w-nav-link">Contact</a>
               </li>
             </ul>
           </nav>
@@ -85,14 +86,15 @@
             <div class="w-layout-grid blogsection09_layout">
               <div class="blogsection09_content">
                 <h2 class="heading-medium-3">Active Projects</h2>
+                <div class="orangeline"></div>
                 <div class="space-xsmall-3"></div>
-                <a href="#" class="button-2 w-button">View Publications</a>
+                <a href="publications.html" class="button-2 w-button">View Publications</a>
               </div>
               <div class="blogsection09_list-wrapper">
                 <div class="w-layout-grid blogsection09_list">
                   <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb90d-35bbf1e4" class="blogsection09_item">
                     <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb90e" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.06.42-PM.png 2356w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 32vw, 22vw" src="images/Screen-Shot-2023-09-27-at-10.06.42-PM.png" alt="" class="blogsection09_image"></div>
+                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.06.42-PM.png 2356w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.06.42-PM.png" alt="" class="blogsection09_image"></div>
                     </a>
                     <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb911-35bbf1e4" class="blogsection09_item-content">
                       <a href="#" class="blogsection09_category-link w-inline-block">
@@ -100,13 +102,15 @@
                       </a>
                       <a href="#" class="blogsection09_title-link w-inline-block">
                         <h3 class="heading-xxsmall-2">Children’s Perception and Interaction with Social Robots</h3>
+                        <div class="text-size-medium-4 text-style-2lines"><strong class="project-authors">Prof. Rhonda McEwen and Dr. Zhao Zhao<br></strong></div>
+                        <div class="orangeline"></div>
                       </a>
-                      <div class="text-size-medium-4 text-style-2lines"><strong class="bold-text-3">Prof. Rhonda McEwen and Dr. Zhao Zhao<br></strong>This research looks at the interaction between children and their home reading companion robot - Luka. Children&#x27;s interaction and perception of the robot, along with the influence of their family context are measured and evaluated over time.</div>
+                      <div class="text-size-medium-4 text-style-2lines">This research looks at the interaction between children and their home reading companion robot - Luka. Children&#x27;s interaction and perception of the robot, along with the influence of their family context are measured and evaluated over time.</div>
                     </div>
                   </div>
                   <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb927-35bbf1e4" class="blogsection09_item">
                     <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb928" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.07.30-PM.png 2128w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 32vw, 22vw" src="images/Screen-Shot-2023-09-27-at-10.07.30-PM.png" alt="" class="blogsection09_image"></div>
+                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.07.30-PM.png 2128w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.07.30-PM.png" alt="" class="blogsection09_image"></div>
                     </a>
                     <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb92b-35bbf1e4" class="blogsection09_item-content">
                       <a href="#" class="blogsection09_category-link w-inline-block">
@@ -120,7 +124,7 @@
                   </div>
                   <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb941-35bbf1e4" class="blogsection09_item">
                     <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb942" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.22.08-PM.png 950w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 32vw, 22vw" src="images/Screen-Shot-2023-09-27-at-10.22.08-PM.png" alt="" class="blogsection09_image"></div>
+                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.22.08-PM.png 950w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.22.08-PM.png" alt="" class="blogsection09_image"></div>
                     </a>
                     <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb945-35bbf1e4" class="blogsection09_item-content">
                       <a href="#" class="blogsection09_category-link w-inline-block">

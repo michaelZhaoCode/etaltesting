@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Fri Oct 27 2023 17:04:43 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Nov 16 2023 22:06:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="653af1d6639763031a75296c" data-wf-site="64ebb438a1410b0086bd7500">
 <head>
   <meta charset="utf-8">
@@ -18,8 +18,9 @@
     <div class="square-menu-inner">
       <div class="navlogosdiv">
         <a href="https://www.vicu.utoronto.ca/about-victoria/edia/" target="_blank" class="brand-logo w-nav-brand"><img src="images/hands.png" loading="lazy" sizes="(max-width: 479px) 11vw, 29.46875px" height="33" alt="edia icon" srcset="images/hands-p-500.png 500w, images/hands.png 585w" class="brandlogoimage2"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="" height="33" class="brandlogoimage"></a>
-        <a href="https://emmanuel.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="brand-logo w-nav-brand"><img src="images/Victoria-University-Crest.png" loading="lazy" alt="victoria college logo
+" height="33" class="brandlogoimage"></a>
+        <a href="https://vicu.utoronto.ca/" target="_blank" class="link">VICTORIA UNIVERSITY</a>
       </div>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="https://vicu.utoronto.ca/donate/" class="donatelink">DONATE</a>
@@ -49,7 +50,7 @@
   <div data-w-id="fbd04e69-56bf-2382-c3b1-9055ad0e94b9" data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
     <div class="container-default w-container">
       <div class="header-content-wrapper">
-        <a href="index.php" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="" class="header-logo">
+        <a href="index.html" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="et al. lab logo" class="header-logo">
           <div class="text-block"> Emerging Technologies and the Arts Lab</div>
         </a>
         <div class="header-right-col">
@@ -60,16 +61,16 @@
           <nav role="navigation" class="header-menu-wrapper w-nav-menu">
             <ul role="list" class="header-nav-menu-list">
               <li class="header-nav-list-item">
-                <a href="projects.php" class="header-nav-link w-nav-link">Projects</a>
+                <a href="projects.html" class="header-nav-link w-nav-link">Projects</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="publications.php" aria-current="page" class="header-nav-link w-nav-link w--current">Publications</a>
+                <a href="publications.html" aria-current="page" class="header-nav-link w-nav-link w--current">Publications</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="about.php" class="header-nav-link w-nav-link">About Us</a>
+                <a href="about.html" class="header-nav-link w-nav-link">About Us</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="#" class="header-nav-link w-nav-link">Contact</a>
+                <a href="contact.html" class="header-nav-link w-nav-link">Contact</a>
               </li>
             </ul>
           </nav>
@@ -82,10 +83,11 @@
       <div class="pubsdivpadding">
         <div class="max-width-large">
           <h2 id="pubs" class="heading-large">Publications</h2>
+          <div class="orangeline"></div>
         </div>
         <div class="pubs_component">
           <div class="pubs_category-menu">
-            <h6 class="pubs_category-heading">Year</h6>
+            <h3 id="w-node-_3e36ed2f-5136-dcbb-c407-317f248c61af-1a75296c" class="pubs_category-heading">Year</h3>
             <a href="#yr-2024" class="pubs_menu-link w-inline-block">
               <div class="year-anchor">2024</div>
             </a>
@@ -110,7 +112,7 @@
             <a href="#yr-2017" class="pubs_menu-link w-inline-block">
               <div class="year-anchor">2017</div>
             </a>
-            <a href="#yr-2016" class="pubs_menu-link w-inline-block">
+            <a href="#yr-2016" id="w-node-_955973ca-4563-b5d1-3196-06d1a1472053-1a75296c" class="pubs_menu-link w-inline-block">
               <div class="year-anchor">2016 and earlier</div>
             </a>
           </div>
@@ -176,6 +178,40 @@
             // Close the connection
             $conn->close();
             ?>
+              <div id="yr-2016" class="category">2016 and earlier</div>
+              <div class="blog07_publication w-clearfix">
+                <div class="heading-small-copy">Paper Title</div>
+                <div class="text-size-medium-3">Author Names</div>
+                <div class="text-size-medium-3">Conference or Journal name</div>
+                <div class="link-size-medium">
+                  <a href="#" class="link-text-medium-small">Citation Link</a>
+                </div>
+              </div>
+              <div class="blog07_publication w-clearfix">
+                <div class="heading-small-copy">Paper Title</div>
+                <div class="text-size-medium-3">Author Names</div>
+                <div class="text-size-medium-3">Conference or Journal name</div>
+                <div class="link-size-medium">
+                  <a href="#" class="link-text-medium-small">Citation Link</a>
+                </div>
+              </div>
+              <div class="blog07_publication w-clearfix">
+                <div class="heading-small-copy">Paper Title</div>
+                <div class="text-size-medium-3">Author Names</div>
+                <div class="text-size-medium-3">Conference or Journal name</div>
+                <div class="link-size-medium">
+                  <a href="#" class="link-text-medium-small">Citation Link</a>
+                </div>
+              </div>
+              <div class="blog07_publication w-clearfix">
+                <div class="heading-small-copy">Paper Title</div>
+                <div class="text-size-medium-3">Author Names</div>
+                <div class="text-size-medium-3">Conference or Journal name</div>
+                <div class="link-size-medium">
+                  <a href="#" class="link-text-medium-small">Citation Link</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

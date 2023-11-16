@@ -91,6 +91,7 @@
                 <a href="publications.html" class="button-2 w-button">View Publications</a>
               </div>
               <div class="blogsection09_list-wrapper">
+              <div class="w-layout-grid blogsection09_list">
                 
               <?php
               ini_set('display_errors', 1);
@@ -119,7 +120,7 @@
               if ($result->num_rows > 0) {
                   // Output data of each row
                   while($row = $result->fetch_assoc()) {
-                      echo '<div class="w-layout-grid blogsection09_list">';
+
                       echo '<div class="blogsection09_item">';
                       echo '<a href="#" class="blogsection09_image-link w-inline-block">';
                       echo '<div class="blogsection09_image-wrapper"><img src="' . $row["image_link"] . '" alt="" class="blogsection09_image"></div>';
@@ -136,7 +137,7 @@
                       echo '<div class="text-size-medium-4 text-style-2lines">' . $row["project_bio"] . '</div>';
                       echo '</div>';
                       echo '</div>';
-                      echo '</div>';
+
                   }
               } else {
                   echo "0 results";
@@ -146,8 +147,8 @@
               $conn->close();
               ?>
 
-                
-              </div>
+            </div>
+            </div>
             </div>
           </div>
         </div>

@@ -117,6 +117,7 @@
             </a>
           </div>
           <div class="pubs_blog-posts">
+            
           <?php
               ini_set('display_errors', 1);
               ini_set('display_startup_errors', 1);
@@ -134,84 +135,41 @@
               // Check connection
               if ($conn->connect_error) {
                   die("Connection failed: " . $conn->connect_error);
-              } 
-            
-            // Step 2: Execute a SQL query to fetch the required data
-            $sql = "SELECT * FROM publications ORDER BY year DESC";
-            $result = $conn->query($sql);
-            
-            // Step 3: Sort the data by year (actually, it's already sorted by the SQL query)
-            $publications_by_year = [];
-            
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    $publications_by_year[$row['year']][] = $row;
-                }
-            }
-            ?>
-            
-            <!-- HTML structure -->
-            <div class="main-content">
-              <!-- Step 4: Loop through the sorted data and populate the HTML structure -->
-              <?php foreach ($publications_by_year as $year => $publications): ?>
-                <div class="pubs_featured-list-wrapper">
-                  <div class="blog07_year-publication-list">
-                    <div id="yr-<?php echo $year; ?>" class="category"><?php echo $year; ?></div>
-                    
-                    <?php foreach ($publications as $publication): ?>
-                      <div class="blog07_publication w-clearfix">
-                        <div class="heading-small-copy"><?php echo $publication['title']; ?></div>
-                        <div class="text-size-medium-3"><?php echo $publication['authors']; ?></div>
-                        <div class="text-size-medium-3"><?php echo $publication['publication']; ?></div>
-                        <div class="link-size-medium">
-                          <a href="<?php echo $publication['citation_link']; ?>" class="link-text-medium-small">Link</a>
-                        </div>
-                      </div>
-                    <?php endforeach; ?>
-                    
-                  </div>
-                </div>
-              <?php endforeach; ?>
-            </div>
-            
-            <?php
-            // Close the connection
-            $conn->close();
-            ?>
-              <div id="yr-2016" class="category">2016 and earlier</div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-              <div class="blog07_publication w-clearfix">
-                <div class="heading-small-copy">Paper Title</div>
-                <div class="text-size-medium-3">Author Names</div>
-                <div class="text-size-medium-3">Conference or Journal name</div>
-                <div class="link-size-medium">
-                  <a href="#" class="link-text-medium-small">Citation Link</a>
-                </div>
-              </div>
-            </div>
+              }
+
+              // SQL query to fetch publications sorted by year
+              $sql = "SELECT year, title, authors, publication, citation_link FROM your_table_name ORDER BY year DESC";
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                  $currentYear = null;
+                  while ($row = $result->fetch_assoc()) {
+                      if ($currentYear != $row["year"]) {
+                          // Close previous year's div if not the first year
+                          if ($currentYear !== null) {
+                              echo '</div></div>';
+                          }
+                          $currentYear = $row["year"];
+                          // Open a new year section
+                          echo '<div class="pubs_featured-list-wrapper"><div class="blog07_year-publication-list">';
+                          echo '<div id="yr-' . $currentYear . '" class="category">' . $currentYear . '</div>';
+                      }
+                      // Publication details
+                      echo '<div class="blog07_publication w-clearfix">';
+                      echo '<div class="pub-authors">' . htmlspecialchars($row["authors"]) . '</div>';
+                      echo '<div class="pub-title">' . htmlspecialchars($row["title"]) . '</div>';
+                      echo '<div class="pub-venue">' . htmlspecialchars($row["publication"]) . '</div>';
+                      echo '<div class="link-size-medium"><a href="' . htmlspecialchars($row["citation_link"]) . '" class="link-text-medium-small">Link</a></div>';
+                      echo '</div>';
+                  }
+                  // Close last year's div
+                  echo '</div></div>';
+              } else {
+                  echo "0 results";
+              }
+              $conn->close();
+              ?>
+
           </div>
         </div>
       </div>

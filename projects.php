@@ -91,52 +91,56 @@
                 <a href="publications.html" class="button-2 w-button">View Publications</a>
               </div>
               <div class="blogsection09_list-wrapper">
-                <div class="w-layout-grid blogsection09_list">
-                  <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb90d-35bbf1e4" class="blogsection09_item">
-                    <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb90e" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.06.42-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.06.42-PM.png 2356w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.06.42-PM.png" alt="" class="blogsection09_image"></div>
-                    </a>
-                    <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb911-35bbf1e4" class="blogsection09_item-content">
-                      <a href="#" class="blogsection09_category-link w-inline-block">
-                        <div class="projectyearheader">2020 - Present</div>
-                      </a>
-                      <a href="#" class="blogsection09_title-link w-inline-block">
-                        <h3 class="heading-xxsmall-2">Children’s Perception and Interaction with Social Robots</h3>
-                        <div class="text-size-medium-4 text-style-2lines"><strong class="project-authors">Prof. Rhonda McEwen and Dr. Zhao Zhao<br></strong></div>
-                        <div class="orangeline"></div>
-                      </a>
-                      <div class="text-size-medium-4 text-style-2lines">This research looks at the interaction between children and their home reading companion robot - Luka. Children&#x27;s interaction and perception of the robot, along with the influence of their family context are measured and evaluated over time.</div>
-                    </div>
-                  </div>
-                  <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb927-35bbf1e4" class="blogsection09_item">
-                    <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb928" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1080.png 1080w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-1600.png 1600w, images/Screen-Shot-2023-09-27-at-10.07.30-PM-p-2000.png 2000w, images/Screen-Shot-2023-09-27-at-10.07.30-PM.png 2128w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.07.30-PM.png" alt="" class="blogsection09_image"></div>
-                    </a>
-                    <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb92b-35bbf1e4" class="blogsection09_item-content">
-                      <a href="#" class="blogsection09_category-link w-inline-block">
-                        <div class="projectyearheader">2018 - Present</div>
-                      </a>
-                      <a href="#" class="blogsection09_title-link w-inline-block">
-                        <h3 class="heading-xxsmall-2">Virtual Reality, Perception &amp; Learning: The Role of Proprioception in Cognition</h3>
-                      </a>
-                      <div class="text-size-medium-4 text-style-2lines"><strong class="bold-text-4">Prof. Rhonda McEwen, Prof. Michelle Lui, Prof. Martha Mullally, and Kit Ying Angela Chong </strong><br>This project investigates the relationship between multisensory systems and cognition, specifically focusing on how they contribute to the conceptual understanding of dynamic scientific systems within VR simulations. By leveraging the advancements in accessible virtual reality technologies and sensing technologies to trace students’ responses, actions, and interactions, we have the unique opportunity to explore how multisensory perception can enhance learning outcomes.</div>
-                    </div>
-                  </div>
-                  <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb941-35bbf1e4" class="blogsection09_item">
-                    <a data-w-id="1b37e6fc-786e-4405-b8a1-b4b47b5eb942" href="#" class="blogsection09_image-link w-inline-block">
-                      <div class="blogsection09_image-wrapper"><img srcset="images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-500.png 500w, images/Screen-Shot-2023-09-27-at-10.22.08-PM-p-800.png 800w, images/Screen-Shot-2023-09-27-at-10.22.08-PM.png 950w" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 31vw, 26vw" src="images/Screen-Shot-2023-09-27-at-10.22.08-PM.png" alt="" class="blogsection09_image"></div>
-                    </a>
-                    <div id="w-node-_1b37e6fc-786e-4405-b8a1-b4b47b5eb945-35bbf1e4" class="blogsection09_item-content">
-                      <a href="#" class="blogsection09_category-link w-inline-block">
-                        <div class="projectyearheader">2021 - Present</div>
-                      </a>
-                      <a href="#" class="blogsection09_title-link w-inline-block">
-                        <h3 class="heading-xxsmall-2">GPT-4-Trinis: How well do LLMs comprehend non-dominant Englishes?</h3>
-                      </a>
-                      <div class="text-size-medium-4 text-style-2lines"><strong class="bold-text-5">Prof. Rhonda McEwen, Dr. Samantha Jackson, Prof. Barend Beekhuizen, Dr. Zhao Zhao, Michael Zhao</strong><br>GPT-4 has proven to be a language model that is proficient at understanding and producing English sentences. Less is known about its ability to handle dialectal variation or English spoken by those outside of the “Inner Circle” (Kachru, 1985). This may place postcolonial English speakers outside of the Inner Circle at a disadvantage as they may not be able to use this technology in the same ways as speakers of more dominant Englishes, thereby perpetuating inequity. This research aims to initially determine if such a problem exists and subsequently explore ways to rectify it if it does.<br></div>
-                    </div>
-                  </div>
-                </div>
+                
+              <?php
+              ini_set('display_errors', 1);
+              ini_set('display_startup_errors', 1);
+              error_reporting(E_ALL);
+  
+              // Database connection parameters
+              $servername = "etal-test-mysql.mysql.database.azure.com";
+              $username = "etal";
+              $password = "Templogin1";
+              $dbname = "test_schema";
+
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
+
+              // Check connection
+              if ($conn->connect_error) {
+                  die("Connection failed: " . $conn->connect_error);
+              }
+
+              // Fetch data from database
+              $sql = "SELECT `project-title`, `project-bio`, `lab-members`, `image-link` FROM projects";
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                  // Output data of each row
+                  while($row = $result->fetch_assoc()) {
+                      echo '<div class="w-layout-grid blogsection09_list">';
+                      echo '  <div class="blogsection09_item">';
+                      echo '    <a href="#" class="blogsection09_image-link w-inline-block">';
+                      echo '      <div class="blogsection09_image-wrapper"><img src="' . $row["image-link"] . '" alt="" class="blogsection09_image"></div>';
+                      echo '    </a>';
+                      echo '    <div class="blogsection09_item-content">';
+                      echo '      <a href="#" class="blogsection09_title-link w-inline-block">';
+                      echo '        <h3 class="heading-xxsmall-2">' . $row["project-title"] . '</h3>';
+                      echo '        <div class="text-size-medium-4 text-style-2lines"><strong class="project-authors">' . $row["lab-members"] . '<br></strong></div>';
+                      echo '        <div class="orangeline"></div>';
+                      echo '      </a>';
+                      echo '      <div class="text-size-medium-4 text-style-2lines">' . $row["project-bio"] . '</div>';
+                      echo '    </div>';
+                      echo '  </div>';
+                      echo '</div>';
+                  }
+              } else {
+                  echo "0 results";
+              }
+              $conn->close();
+              ?>
+
+                
               </div>
             </div>
           </div>

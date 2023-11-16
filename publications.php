@@ -138,7 +138,7 @@
               }
 
               // SQL query to fetch publications sorted by year
-              $sql = "SELECT year, title, authors, publication, citation_link FROM your_table_name ORDER BY year DESC";
+              $sql = "SELECT year, title, authors, publication, citation_link FROM publications ORDER BY year DESC";
               $result = $conn->query($sql);
 
               if ($result->num_rows > 0) {

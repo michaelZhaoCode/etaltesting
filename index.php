@@ -151,6 +151,7 @@
                                 </a>
                                 <div class="text-size-medium">' . $row["news_details"] . '</div>
                                 <a href="' . $row["news_link"] . '" target="_blank" class="button-link w-inline-block">
+                                  <div class="spacer-small"></div>
                                   <div>Read more</div>
                                 </a>
                               </div>

@@ -108,6 +108,60 @@
           </div>
           <div data-delay="4000" data-animation="slide" class="blogsection_component w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="6" data-duration="500" data-infinite="false">
             <div class="blogsection_mask w-slider-mask">
+
+            <?php
+              ini_set('display_errors', 1);
+              ini_set('display_startup_errors', 1);
+              error_reporting(E_ALL);
+  
+              // Database connection parameters
+              $servername = "etal-test-mysql.mysql.database.azure.com";
+              $username = "etal";
+              $password = "Templogin1";
+              $dbname = "test_schema";
+
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
+
+              // Check connection
+              if ($conn->connect_error) {
+                  die("Connection failed: " . $conn->connect_error);
+              }
+
+              // SQL query to fetch publications sorted by year
+              $sql = "SELECT * FROM news ORDER BY `id` DESC"; 
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                  while($row = $result->fetch_assoc()) {
+                      echo '<div class="blogsection_slide w-slide">
+                              <div class="blogsection_item">
+                                <a href="#" class="blogsection_image-link w-inline-block">
+                                  <div class="blogsection_image-wrapper">
+                                      <img src="' . $row["news_image"] . '" alt="' . $row["news_heading"] . '" class="blogsection_image">
+                                  </div>
+                                </a>
+                                <div class="blogsection_meta-wrapper">
+                                  <a href="#" class="blogsection_category-link w-inline-block">
+                                    <div class="blogsection_category-link">' . $row["news_category"] . '</div>
+                                  </a>
+                                </div>
+                                <a href="' . $row["news_link"] . '" class="blogsection_title-link w-inline-block">
+                                  <h3 class="heading-small">' . $row["news_heading"] . '</h3>
+                                </a>
+                                <div class="text-size-medium">' . $row["news_details"] . '</div>
+                                <a href="' . $row["news_link"] . '" target="_blank" class="button-link w-inline-block">
+                                  <div>Read more</div>
+                                </a>
+                              </div>
+                            </div>';
+                            }
+                          } else {
+                        echo "0 results";
+                      }
+              $conn->close();
+              ?>
+
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329aa" href="#" class="blogsection_image-link w-inline-block">
@@ -132,6 +186,10 @@
                   </a>
                 </div>
               </div>
+
+
+
+
               <div class="blogsection_slide w-slide">
                 <div class="blogsection_item">
                   <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329c1" href="#" class="blogsection_image-link w-inline-block">
@@ -218,19 +276,19 @@
             <div class="blogsection_slide-nav w-slider-nav w-round"></div>
             <div class="slide-nav-styling-embed w-embed">
               <style>
-/* Change color of the default dot by replacing the hex code*/
-.w-slider-dot {
-background-color: #2b292e;
-width: 0.625rem;
-height: 0.625rem;
-}
-/* Change color of the active dot by replacing the hex code*/
-.w-slider-dot.w-active {
-background-color: #f2b85a;
-width: 0.625rem;
-height: 0.625rem;
-}
-</style>
+              /* Change color of the default dot by replacing the hex code*/
+              .w-slider-dot {
+              background-color: #2b292e;
+              width: 0.625rem;
+              height: 0.625rem;
+              }
+              /* Change color of the active dot by replacing the hex code*/
+              .w-slider-dot.w-active {
+              background-color: #f2b85a;
+              width: 0.625rem;
+              height: 0.625rem;
+              }
+              </style>
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@
   <div data-w-id="c153db11-9976-f13a-2b86-3917907f273e" data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
     <div class="container-default w-container">
       <div class="header-content-wrapper">
-        <a href="index.html" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="et al. lab logo" class="header-logo">
+        <a href="index.php" class="header-logo-link w-nav-brand"><img src="images/EtAl_Logo_Small.png" srcset="images/EtAl_Logo_Small-p-500.png 500w, images/EtAl_Logo_Small-p-800.png 800w, images/EtAl_Logo_Small.png 806w" width="60" sizes="60px" alt="et al. lab logo" class="header-logo">
           <div class="text-block"> Emerging Technologies and the Arts Lab</div>
         </a>
         <div class="header-right-col">
@@ -61,16 +61,16 @@
           <nav role="navigation" class="header-menu-wrapper w-nav-menu">
             <ul role="list" class="header-nav-menu-list">
               <li class="header-nav-list-item">
-                <a href="projects.html" aria-current="page" class="header-nav-link w-nav-link w--current">Projects</a>
+                <a href="projects.php" aria-current="page" class="header-nav-link w-nav-link w--current">Projects</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="publications.html" class="header-nav-link w-nav-link">Publications</a>
+                <a href="publications.php" class="header-nav-link w-nav-link">Publications</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="about.html" class="header-nav-link w-nav-link">About Us</a>
+                <a href="about.php" class="header-nav-link w-nav-link">About Us</a>
               </li>
               <li class="header-nav-list-item">
-                <a href="contact.html" class="header-nav-link w-nav-link">Contact</a>
+                <a href="contact.php" class="header-nav-link w-nav-link">Contact</a>
               </li>
             </ul>
           </nav>
@@ -88,7 +88,7 @@
                 <h2 class="heading-medium-3">Active Projects</h2>
                 <div class="orangeline"></div>
                 <div class="space-xsmall-3"></div>
-                <a href="publications.html" class="button-2 w-button">View Publications</a>
+                <a href="publications.php" class="button-2 w-button">View Publications</a>
               </div>
               <div class="blogsection09_list-wrapper">
               <div class="w-layout-grid blogsection09_list">

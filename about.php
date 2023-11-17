@@ -150,7 +150,7 @@
                   die("Connection failed: " . $conn->connect_error);
               } 
 
-              $sql = "SELECT profilepic_url, bio_text, fullname, lab_role, interests, personal_url, email_url, googlescholar_url, linkedin_url, twitter_url FROM team_members ORDER BY rank ASC";
+              $sql = "SELECT * FROM team_members ORDER BY rank ASC";
               $result = $conn->query($sql);
           
               if ($result->num_rows > 0) {

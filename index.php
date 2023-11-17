@@ -129,7 +129,7 @@
               }
 
               // SQL query to fetch publications sorted by year
-              $sql = "SELECT * FROM news ORDER BY `id` DESC"; 
+              $sql = "SELECT * FROM news ORDER BY `id` ASC"; 
               $result = $conn->query($sql);
 
               if ($result->num_rows > 0) {
@@ -162,106 +162,6 @@
               $conn->close();
               ?>
 
-              <div class="blogsection_slide w-slide">
-                <div class="blogsection_item">
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329aa" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.02.47-AM-p-1080.png 1080w, images/Screen-Shot-2023-09-28-at-9.02.47-AM.png 1482w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.02.47-AM.png" alt="CHI 2023 conference banner image" class="blogsection_image"></div>
-                  </a>
-                  <div class="blogsection_meta-wrapper">
-                    <a href="#" class="blogsection_category-link w-inline-block">
-                      <div class="blogsection_category-link">Honorable Mention</div>
-                    </a>
-                    <div class="blogsection_read-time"></div>
-                  </div>
-                  <a href="#" class="blogsection_title-link w-inline-block">
-                    <h3 class="heading-small">Ethan Rong awarded Honourable Mention for exceptional paper published at the CHI conference.</h3>
-                  </a>
-                  <div class="text-size-medium">Understanding Personal Data Tracking and Sensemaking Practices for Self-Directed Learning in Non-classroom and Non-computer-based Contexts <br><br></div>
-                  <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329bb" href="https://dl.acm.org/doi/10.1145/3544548.3581364" target="_blank" class="button-link w-inline-block">
-                    <div>Read more</div>
-                    <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg></div>
-                  </a>
-                </div>
-              </div>
-
-
-
-
-              <div class="blogsection_slide w-slide">
-                <div class="blogsection_item">
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329c1" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/644f1d25dc016-p-500.webp 500w, images/644f1d25dc016-p-800.webp 800w, images/644f1d25dc016-p-1080.webp 1080w, images/644f1d25dc016.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/644f1d25dc016.webp" alt="Rhonda McEwen in her Victoria College Office" class="blogsection_image"></div>
-                  </a>
-                  <div class="blogsection_meta-wrapper">
-                    <a href="#" class="blogsection_category-link w-inline-block">
-                      <div>News</div>
-                    </a>
-                    <div class="blogsection_read-time"></div>
-                  </div>
-                  <a href="#" class="blogsection_title-link w-inline-block">
-                    <h3 class="heading-small">How to make a Toronto institution elite but not elitist. That’s a key goal for this university president</h3>
-                  </a>
-                  <div class="text-size-medium">After a year at the helm of U of T’s storied Victoria University, Rhonda McEwen says her prime mandate is to ensure students feel like they belong.<br><br></div>
-                  <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329d2" href="https://www.thestar.com/news/gta/how-to-make-a-toronto-institution-elite-but-not-elitist-that-s-a-key-goal/article_563fa74f-56de-561c-b502-a62e2d2f1874.php" target="_blank" class="button-link w-inline-block">
-                    <div>Read more</div>
-                    <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg></div>
-                  </a>
-                </div>
-              </div>
-              <div class="blogsection_slide w-slide">
-                <div class="blogsection_item">
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329d8" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-500.png 500w, images/Screen-Shot-2023-09-28-at-9.04.48-AM-p-800.png 800w, images/Screen-Shot-2023-09-28-at-9.04.48-AM.png 908w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/Screen-Shot-2023-09-28-at-9.04.48-AM.png" alt="Photo of Yaxi Zhao" class="blogsection_image"></div>
-                  </a>
-                  <div class="blogsection_meta-wrapper">
-                    <a href="#" class="blogsection_category-link w-inline-block">
-                      <div>News</div>
-                    </a>
-                    <div class="blogsection_read-time"></div>
-                  </div>
-                  <a href="#" class="blogsection_title-link w-inline-block">
-                    <h3 class="heading-small">PhD Student Yaxi Zhao receives inaugural Inlight Research Fellowship in support of mental health research</h3>
-                  </a>
-                  <div class="text-size-medium">The award supports independent student researchers in post-secondary student mental health.<br></div>
-                  <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329e9" href="https://ischool.utoronto.ca/news/phd-student-receives-inaugural-inlight-research-fellowship-in-support-of-mental-health-research/" class="button-link w-inline-block">
-                    <div>Read more</div>
-                    <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg></div>
-                  </a>
-                </div>
-              </div>
-              <div class="blogsection_slide w-slide">
-                <div class="blogsection_item">
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e329ef" href="#" class="blogsection_image-link w-inline-block">
-                    <div class="blogsection_image-wrapper"><img srcset="images/6471ce41a6381-p-500.webp 500w, images/6471ce41a6381-p-800.webp 800w, images/6471ce41a6381-p-1080.webp 1080w, images/6471ce41a6381.webp 1200w" loading="lazy" sizes="(max-width: 479px) 84vw, (max-width: 767px) 45vw, (max-width: 991px) 35vw, 26vw" src="images/6471ce41a6381.webp" alt="Photo of Rhonda McEwen" class="blogsection_image"></div>
-                  </a>
-                  <div class="blogsection_meta-wrapper">
-                    <a href="#" class="blogsection_category-link w-inline-block">
-                      <div>News</div>
-                    </a>
-                    <div class="blogsection_read-time"></div>
-                  </div>
-                  <a href="#" class="blogsection_title-link w-inline-block">
-                    <h3 class="heading-small">Academic papers written by AI get a solid B — but is it cheating?<br></h3>
-                  </a>
-                  <div class="text-size-medium">This is a moment to challenge our approaches to teaching and assessing writing in the liberal arts and sciences.<br></div>
-                  <div class="space-small"></div>
-                  <a data-w-id="2a4d0a9f-c1bd-05f3-c2a8-5ab6f1e32a00" href="https://www.thestar.com/opinion/contributors/academic-papers-written-by-ai-get-a-solid-b-but-is-it-cheating/article_9c6de419-0e71-5eed-a2ca-27ac636c18f1.php" class="button-link w-inline-block">
-                    <div>Read more</div>
-                    <div class="button-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.83301 14.1668L14.1663 5.8335M14.1663 5.8335H5.83301M14.1663 5.8335V14.1668" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg></div>
-                  </a>
-                </div>
-              </div>
             </div>
             <div class="blogsection_arrow left w-slider-arrow-left">
               <div class="button-icon-copy w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

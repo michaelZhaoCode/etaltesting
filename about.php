@@ -159,7 +159,7 @@
                       echo '<div id="w-node-e4fae455-8f98-4d70-5419-4f521c86f4d8-d706d7c0" class="wrapped-square-team stacked">';
                       echo '<a href="#" class="team-link w-inline-block"><img src="'.$row["profilepic_url"].'" loading="eager" width="80" alt="" class="vertical-image-2 square-corners">';
                       echo '<div class="team-member-details-2 full-width-team-details">';
-                      echo '<p><span class="text-span-2">'.$row["bio_text"].'</span></p>';
+                      echo '<p><span class="labmemberbiotext">'.$row["bio_text"].'</span></p>';
                       echo '</div></a></div>';
                       echo '<div class="team01_item">';
                       echo '<div class="heading-tiny">'.$row["fullname"].'</div>';

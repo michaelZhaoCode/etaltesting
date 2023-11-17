@@ -150,7 +150,7 @@
                   die("Connection failed: " . $conn->connect_error);
               } 
 
-              $sql = "SELECT * FROM team_members ORDER BY rank ASC";
+              $sql = "SELECT * FROM team_members ORDER BY `rank` ASC";
               $result = $conn->query($sql);
           
               if ($result->num_rows > 0) {
